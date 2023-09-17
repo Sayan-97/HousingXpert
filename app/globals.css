@@ -1,0 +1,27 @@
+/* Tailwind Directives */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles */
+body {
+  width: 100vw;
+  min-height: 100vh;
+  background: #FAFAFA;
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  @apply flex-grow;
+}
+
+/* Custom Classes */
+.container-lg {
+  @apply w-11/12 mx-auto;
+}
+
+.container-md {
+  @apply w-11/12 md:w-10/12 mx-auto;
+}
